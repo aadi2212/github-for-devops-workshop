@@ -1,0 +1,26 @@
+  1  ip a
+  2  reboot
+  3  ls
+  4  rm -r github-for-devops-workshop/
+  5  yes
+  6  clear
+  7  mkdir github-for-devops-workshop
+  8  ls
+  9  cd github-for-devops-workshop/
+  10  clear
+  11  ls
+  12  git init
+  13  ls -a
+  14  touch filetest1.txt
+  15  ls
+  16  git status
+  17  git add filetest1.txt
+  18  git status
+  19  git rm--cache filetest1.txt
+  20  git rm --cache filetest1.txt
+  21  git status
+  22  git add filetest1.txt
+  23  git status
+  24  ls
+  25  vim filetest1.txt
+  26  git commit -m "added testing files"
