@@ -1,0 +1,13 @@
+git add devopsfile1
+git rm --cache devopsfile1
+git commit -m "added devopsfile1 content"
+git restore devopsfile1
+git push origin master
+git status
+git branch 
+git branch dev
+git swich dev
+git push origin dev
+git branch test
+git switch test
+git push origin test
