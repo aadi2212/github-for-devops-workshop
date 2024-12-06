@@ -1,0 +1,14 @@
+cd github-for-devops-workshop/
+ls
+sudo vim testing.py
+clear
+git status
+rm testing.py
+ls
+git status
+git resotre testing.py
+git restore testing.py
+ls
+clear
+ls -l
+sudo vim git_commands.txt
