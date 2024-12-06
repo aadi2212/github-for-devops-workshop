@@ -1,0 +1,8 @@
+git add git code local to remote
+git status
+git commit -m "adding local code to remote"
+git remote add origin https://github.com/aadi2212/github-for-devops-workshop
+git remote -v
+git remote set-url https://personal access token@github.com/aadi2212/github-for-devops-workshop
+git remote -v
+git push origin master  
